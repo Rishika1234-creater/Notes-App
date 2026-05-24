@@ -11,7 +11,8 @@ Create, edit, delete, and save notes in your browser using **localStorage**. Per
 -  **Delete Notes** – Remove notes permanently.  
 -  **LocalStorage** – Notes are saved even after refreshing the page.  
 -  **Responsive UI** – Clean, modern, and mobile-friendly with Tailwind CSS.  
--  **Beginner-friendly code** – Great for learning JavaScript concepts.  
+-  **Beginner-friendly code** – Great for learning JavaScript concepts.
+-  **Download Notes** - Can be download notes in text format 
 
 ---
 
@@ -59,7 +60,8 @@ Contains:
 
 1. **Add Note** – Type a note → Click "Add Note" → Saved in `localStorage` → Displayed on screen.  
 2. **Delete Note** – Click delete → Removed from `localStorage` → UI updates automatically.  
-3. **Load Notes** – On page load, notes are fetched from `localStorage` and displayed.  
+3. **Load Notes** – On page load, notes are fetched from `localStorage` and displayed.
+4. **Download Notes** - we can download notes also in text format. 
 
 ---
 
@@ -67,11 +69,10 @@ Contains:
 
 ##  Future Enhancements
 
--  Search notes  
--  Edit notes  
--  Dark/Light mode toggle  
--  Categories / Tags    
--  Download notes as file  
+-  User Authentication – Add login/signup so each user has their own private notes  
+-  Cloud Sync (Backend Integration) – Save notes to a database instead of only LocalStorage 
+-  Rich Text Editor – Allow bold, italic, bullet points, and better formatting inside notes 
+  
 
 ---
 
